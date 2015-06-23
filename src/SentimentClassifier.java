@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * Created by David on 26/04/2015.
  */
-public class SentimentClassifier {
+    public class SentimentClassifier {
 
     String[] categories;
     LMClassifier classifier;
@@ -16,7 +16,7 @@ public class SentimentClassifier {
 
     public SentimentClassifier() {
         try {
-            classifier= (LMClassifier) AbstractExternalizable.readObject(new File("docs/classifier.txt"));
+            classifier= (LMClassifier) AbstractExternalizable.readObject(new File("docs/classifier2.txt"));
             categories = classifier.categories();
         }
         catch (ClassNotFoundException e) {

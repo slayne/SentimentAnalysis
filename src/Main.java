@@ -7,7 +7,14 @@ public class Main {
 
     public static void main(String [] arg) throws IOException, InterruptedException {
 
-        TwitterManager tm = new TwitterManager();
-        tm.performQuery("Bieber");
+       TwitterManager tm = new TwitterManager();
+       tm.performQuery("Booba");
+
+        /*Engine e= new Engine();
+        try {
+            e.train();
+        } catch (ClassNotFoundException e1) {
+            e1.printStackTrace();
+        }*/
     }
 }
