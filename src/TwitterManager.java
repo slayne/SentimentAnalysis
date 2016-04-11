@@ -17,10 +17,10 @@ public class TwitterManager {
     Twitter twitter;
     public TwitterManager() {
         cb = new ConfigurationBuilder();
-        cb.setOAuthConsumerKey("QXrRShnqmYZMK2pKVTxH5A3S3");
-        cb.setOAuthConsumerSecret("O6FK1YByRtJovAAEtBlU2uImBDwvYl9Qt46EWdFsCcG2Ol4CFt");
-        cb.setOAuthAccessToken("51033667-O27xiEvITurg3QzqCsJ5OnpGzvPun05X73aopqgfM");
-        cb.setOAuthAccessTokenSecret("np5AAhKIWfOk8up3rYlopRgrbvNENGZrBeqTnvT9laFcQ");
+        cb.setOAuthConsumerKey("");
+        cb.setOAuthConsumerSecret("");
+        cb.setOAuthAccessToken("");
+        cb.setOAuthAccessTokenSecret("");
         twitter = new TwitterFactory(cb.build()).getInstance();
         sentClassifier = new SentimentClassifier();
     }
